@@ -1,0 +1,1388 @@
+{
+  "COUNTRIES": {
+    "PR": {
+      "COUNTRY_NAME": "PR",
+      "NUMBERS": 0
+    },
+    "PS": {
+      "COUNTRY_NAME": "PS",
+      "NUMBERS": 0
+    },
+    "PT": {
+      "CENTER": {
+        "x": 736,
+        "y": 296
+      },
+      "COUNTRY_NAME": "PT",
+      "NUMBERS": 0
+    },
+    "PW": {
+      "COUNTRY_NAME": "PW",
+      "NUMBERS": 0
+    },
+    "PY": {
+      "CENTER": {
+        "x": 445,
+        "y": 752
+      },
+      "COUNTRY_NAME": "PY",
+      "NUMBERS": 0
+    },
+    "QA": {
+      "COUNTRY_NAME": "QA",
+      "NUMBERS": 0
+    },
+    "AD": {
+      "COUNTRY_NAME": "AD",
+      "NUMBERS": 0
+    },
+    "AE": {
+      "COUNTRY_NAME": "AE",
+      "NUMBERS": 0
+    },
+    "AF": {
+      "CENTER": {
+        "x": 1142,
+        "y": 341
+      },
+      "COUNTRY_NAME": "AF",
+      "NUMBERS": 0
+    },
+    "AG": {
+      "COUNTRY_NAME": "AG",
+      "NUMBERS": 0
+    },
+    "AI": {
+      "COUNTRY_NAME": "AI",
+      "NUMBERS": 0
+    },
+    "AL": {
+      "COUNTRY_NAME": "AL",
+      "NUMBERS": 0
+    },
+    "AM": {
+      "COUNTRY_NAME": "AM",
+      "NUMBERS": 0
+    },
+    "AN": {
+      "COUNTRY_NAME": "AN",
+      "NUMBERS": 0
+    },
+    "AO": {
+      "CENTER": {
+        "x": 881,
+        "y": 685
+      },
+      "COUNTRY_NAME": "AO",
+      "NUMBERS": 0
+    },
+    "AQ": {
+      "COUNTRY_NAME": "AQ",
+      "NUMBERS": 0
+    },
+    "AR": {
+      "CENTER": {
+        "x": 436,
+        "y": 843
+      },
+      "COUNTRY_NAME": "AR",
+      "NUMBERS": 0
+    },
+    "AS": {
+      "COUNTRY_NAME": "AS",
+      "NUMBERS": 0
+    },
+    "AT": {
+      "COUNTRY_NAME": "AT",
+      "NUMBERS": 0
+    },
+    "RE": {
+      "COUNTRY_NAME": "RE",
+      "NUMBERS": 0
+    },
+    "AU": {
+      "CENTER": {
+        "x": 1556,
+        "y": 792
+      },
+      "COUNTRY_NAME": "AU",
+      "NUMBERS": 0
+    },
+    "AW": {
+      "COUNTRY_NAME": "AW",
+      "NUMBERS": 0
+    },
+    "AX": {
+      "COUNTRY_NAME": "AX",
+      "NUMBERS": 0
+    },
+    "AZ": {
+      "COUNTRY_NAME": "AZ",
+      "NUMBERS": 0
+    },
+    "RO": {
+      "COUNTRY_NAME": "RO",
+      "NUMBERS": 0
+    },
+    "BA": {
+      "COUNTRY_NAME": "BA",
+      "NUMBERS": 0
+    },
+    "BB": {
+      "COUNTRY_NAME": "BB",
+      "NUMBERS": 0
+    },
+    "RS": {
+      "COUNTRY_NAME": "RS",
+      "NUMBERS": 0
+    },
+    "BD": {
+      "COUNTRY_NAME": "BD",
+      "NUMBERS": 0
+    },
+    "BE": {
+      "COUNTRY_NAME": "BE",
+      "NUMBERS": 0
+    },
+    "RU": {
+      "CENTER": {
+        "x": 1254,
+        "y": 157
+      },
+      "COUNTRY_NAME": "RU",
+      "NUMBERS": 0
+    },
+    "BF": {
+      "CENTER": {
+        "x": 767,
+        "y": 491
+      },
+      "COUNTRY_NAME": "BF",
+      "NUMBERS": 0
+    },
+    "BG": {
+      "COUNTRY_NAME": "BG",
+      "NUMBERS": 0
+    },
+    "RW": {
+      "COUNTRY_NAME": "RW",
+      "NUMBERS": 0
+    },
+    "BH": {
+      "COUNTRY_NAME": "BH",
+      "NUMBERS": 0
+    },
+    "BI": {
+      "COUNTRY_NAME": "BI",
+      "NUMBERS": 0
+    },
+    "BJ": {
+      "COUNTRY_NAME": "BJ",
+      "NUMBERS": 0
+    },
+    "BL": {
+      "COUNTRY_NAME": "BL",
+      "NUMBERS": 0
+    },
+    "BM": {
+      "COUNTRY_NAME": "BM",
+      "NUMBERS": 0
+    },
+    "BN": {
+      "CENTER": {
+        "x": 1479,
+        "y": 547
+      },
+      "COUNTRY_NAME": "BN",
+      "NUMBERS": 0
+    },
+    "BO": {
+      "CENTER": {
+        "x": 404,
+        "y": 711
+      },
+      "COUNTRY_NAME": "BO",
+      "NUMBERS": 0
+    },
+    "SA": {
+      "CENTER": {
+        "x": 1041,
+        "y": 414
+      },
+      "COUNTRY_NAME": "SA",
+      "NUMBERS": 0
+    },
+    "BQ": {
+      "COUNTRY_NAME": "BQ",
+      "NUMBERS": 0
+    },
+    "SB": {
+      "COUNTRY_NAME": "SB",
+      "NUMBERS": 0
+    },
+    "BR": {
+      "CENTER": {
+        "x": 462,
+        "y": 651
+      },
+      "COUNTRY_NAME": "BR",
+      "NUMBERS": 0
+    },
+    "SC": {
+      "COUNTRY_NAME": "SC",
+      "NUMBERS": 0
+    },
+    "BS": {
+      "COUNTRY_NAME": "BS",
+      "NUMBERS": 0
+    },
+    "SD": {
+      "CENTER": {
+        "x": 956,
+        "y": 473
+      },
+      "COUNTRY_NAME": "SD",
+      "NUMBERS": 0
+    },
+    "BT": {
+      "COUNTRY_NAME": "BT",
+      "NUMBERS": 0
+    },
+    "SE": {
+      "CENTER": {
+        "x": 864,
+        "y": 139
+      },
+      "COUNTRY_NAME": "SE",
+      "NUMBERS": 0
+    },
+    "BV": {
+      "COUNTRY_NAME": "BV",
+      "NUMBERS": 0
+    },
+    "SG": {
+      "CENTER": {
+        "x": 1401,
+        "y": 579
+      },
+      "COUNTRY_NAME": "SG",
+      "NUMBERS": 0
+    },
+    "BW": {
+      "CENTER": {
+        "x": 915,
+        "y": 746
+      },
+      "COUNTRY_NAME": "BW",
+      "NUMBERS": 0
+    },
+    "SH": {
+      "COUNTRY_NAME": "SH",
+      "NUMBERS": 0
+    },
+    "SI": {
+      "COUNTRY_NAME": "SI",
+      "NUMBERS": 0
+    },
+    "BY": {
+      "CENTER": {
+        "x": 927,
+        "y": 194
+      },
+      "COUNTRY_NAME": "BY",
+      "NUMBERS": 0
+    },
+    "SJ": {
+      "COUNTRY_NAME": "SJ",
+      "NUMBERS": 0
+    },
+    "BZ": {
+      "COUNTRY_NAME": "BZ",
+      "NUMBERS": 0
+    },
+    "SK": {
+      "COUNTRY_NAME": "SK",
+      "NUMBERS": 0
+    },
+    "SL": {
+      "COUNTRY_NAME": "SL",
+      "NUMBERS": 0
+    },
+    "SM": {
+      "COUNTRY_NAME": "SM",
+      "NUMBERS": 0
+    },
+    "SN": {
+      "COUNTRY_NAME": "SN",
+      "NUMBERS": 0
+    },
+    "SO": {
+      "CENTER": {
+        "x": 1045,
+        "y": 556
+      },
+      "COUNTRY_NAME": "SO",
+      "NUMBERS": 0
+    },
+    "CA": {
+      "CENTER": {
+        "x": 254,
+        "y": 160
+      },
+      "COUNTRY_NAME": "CA",
+      "NUMBERS": 0
+    },
+    "SR": {
+      "CENTER": {
+        "x": 443,
+        "y": 553
+      },
+      "COUNTRY_NAME": "SR",
+      "NUMBERS": 0
+    },
+    "CC": {
+      "COUNTRY_NAME": "CC",
+      "NUMBERS": 0
+    },
+    "SS": {
+      "COUNTRY_NAME": "SS",
+      "NUMBERS": 0
+    },
+    "CD": {
+      "CENTER": {
+        "x": 920,
+        "y": 604
+      },
+      "COUNTRY_NAME": "CD",
+      "NUMBERS": 0
+    },
+    "ST": {
+      "COUNTRY_NAME": "ST",
+      "NUMBERS": 0
+    },
+    "CF": {
+      "CENTER": {
+        "x": 898,
+        "y": 535
+      },
+      "COUNTRY_NAME": "CF",
+      "NUMBERS": 0
+    },
+    "SV": {
+      "COUNTRY_NAME": "SV",
+      "NUMBERS": 0
+    },
+    "CG": {
+      "COUNTRY_NAME": "CG",
+      "NUMBERS": 0
+    },
+    "CH": {
+      "COUNTRY_NAME": "CH",
+      "NUMBERS": 0
+    },
+    "SX": {
+      "COUNTRY_NAME": "SX",
+      "NUMBERS": 0
+    },
+    "CI": {
+      "COUNTRY_NAME": "CI",
+      "NUMBERS": 0
+    },
+    "SY": {
+      "CENTER": {
+        "x": 995,
+        "y": 320
+      },
+      "COUNTRY_NAME": "SY",
+      "NUMBERS": 0
+    },
+    "SZ": {
+      "COUNTRY_NAME": "SZ",
+      "NUMBERS": 0
+    },
+    "CK": {
+      "COUNTRY_NAME": "CK",
+      "NUMBERS": 0
+    },
+    "CL": {
+      "CENTER": {
+        "x": 392,
+        "y": 848
+      },
+      "COUNTRY_NAME": "CL",
+      "NUMBERS": 0
+    },
+    "CM": {
+      "CENTER": {
+        "x": 847,
+        "y": 547
+      },
+      "COUNTRY_NAME": "CM",
+      "NUMBERS": 0
+    },
+    "CN": {
+      "CENTER": {
+        "x": 1338,
+        "y": 320
+      },
+      "COUNTRY_NAME": "CN",
+      "NUMBERS": 0
+    },
+    "CO": {
+      "CENTER": {
+        "x": 344,
+        "y": 565
+      },
+      "COUNTRY_NAME": "CO",
+      "NUMBERS": 0
+    },
+    "CR": {
+      "COUNTRY_NAME": "CR",
+      "NUMBERS": 0
+    },
+    "TC": {
+      "COUNTRY_NAME": "TC",
+      "NUMBERS": 0
+    },
+    "TD": {
+      "CENTER": {
+        "x": 888,
+        "y": 466
+      },
+      "COUNTRY_NAME": "TD",
+      "NUMBERS": 0
+    },
+    "CU": {
+      "COUNTRY_NAME": "CU",
+      "NUMBERS": 0
+    },
+    "TF": {
+      "COUNTRY_NAME": "TF",
+      "NUMBERS": 0
+    },
+    "CV": {
+      "COUNTRY_NAME": "CV",
+      "NUMBERS": 0
+    },
+    "TG": {
+      "COUNTRY_NAME": "TG",
+      "NUMBERS": 0
+    },
+    "CW": {
+      "COUNTRY_NAME": "CW",
+      "NUMBERS": 0
+    },
+    "TH": {
+      "CENTER": {
+        "x": 1372,
+        "y": 463
+      },
+      "COUNTRY_NAME": "TH",
+      "NUMBERS": 0
+    },
+    "CX": {
+      "COUNTRY_NAME": "CX",
+      "NUMBERS": 0
+    },
+    "CY": {
+      "COUNTRY_NAME": "CY",
+      "NUMBERS": 0
+    },
+    "TJ": {
+      "CENTER": {
+        "x": 1164,
+        "y": 299
+      },
+      "COUNTRY_NAME": "TJ",
+      "NUMBERS": 0
+    },
+    "CZ": {
+      "COUNTRY_NAME": "CZ",
+      "NUMBERS": 0
+    },
+    "TK": {
+      "CENTER": {
+        "x": 1106,
+        "y": 296
+      },
+      "COUNTRY_NAME": "TK",
+      "NUMBERS": 0
+    },
+    "TL": {
+      "COUNTRY_NAME": "TL",
+      "NUMBERS": 0
+    },
+    "TM": {
+      "COUNTRY_NAME": "TM",
+      "NUMBERS": 0
+    },
+    "TN": {
+      "COUNTRY_NAME": "TN",
+      "NUMBERS": 0
+    },
+    "TO": {
+      "COUNTRY_NAME": "TO",
+      "NUMBERS": 0
+    },
+    "TR": {
+      "CENTER": {
+        "x": 975,
+        "y": 299
+      },
+      "COUNTRY_NAME": "TR",
+      "NUMBERS": 0
+    },
+    "TT": {
+      "COUNTRY_NAME": "TT",
+      "NUMBERS": 0
+    },
+    "DE": {
+      "COUNTRY_NAME": "DE",
+      "NUMBERS": 0
+    },
+    "TV": {
+      "COUNTRY_NAME": "TV",
+      "NUMBERS": 0
+    },
+    "TW": {
+      "COUNTRY_NAME": "TW",
+      "NUMBERS": 0
+    },
+    "DJ": {
+      "COUNTRY_NAME": "DJ",
+      "NUMBERS": 0
+    },
+    "TZ": {
+      "CENTER": {
+        "x": 985,
+        "y": 632
+      },
+      "COUNTRY_NAME": "TZ",
+      "NUMBERS": 0
+    },
+    "DK": {
+      "COUNTRY_NAME": "DK",
+      "NUMBERS": 0
+    },
+    "DM": {
+      "COUNTRY_NAME": "DM",
+      "NUMBERS": 0
+    },
+    "DO": {
+      "COUNTRY_NAME": "DO",
+      "NUMBERS": 0
+    },
+    "UA": {
+      "CENTER": {
+        "x": 946,
+        "y": 224
+      },
+      "COUNTRY_NAME": "UA",
+      "NUMBERS": 0
+    },
+    "UG": {
+      "COUNTRY_NAME": "UG",
+      "NUMBERS": 0
+    },
+    "DZ": {
+      "CENTER": {
+        "x": 796,
+        "y": 377
+      },
+      "COUNTRY_NAME": "DZ",
+      "NUMBERS": 0
+    },
+    "UM": {
+      "COUNTRY_NAME": "UM",
+      "NUMBERS": 0
+    },
+    "EC": {
+      "CENTER": {
+        "x": 312,
+        "y": 586
+      },
+      "COUNTRY_NAME": "EC",
+      "NUMBERS": 0
+    },
+    "US": {
+      "CENTER": {
+        "x": 240,
+        "y": 303
+      },
+      "COUNTRY_NAME": "US",
+      "NUMBERS": 0
+    },
+    "EE": {
+      "CENTER": {
+        "x": 912,
+        "y": 157
+      },
+      "COUNTRY_NAME": "EE",
+      "NUMBERS": 0
+    },
+    "EG": {
+      "CENTER": {
+        "x": 944,
+        "y": 394
+      },
+      "COUNTRY_NAME": "EG",
+      "NUMBERS": 0
+    },
+    "EH": {
+      "CENTER": {
+        "x": 702,
+        "y": 407
+      },
+      "COUNTRY_NAME": "EH",
+      "NUMBERS": 0
+    },
+    "UY": {
+      "CENTER": {
+        "x": 479,
+        "y": 836
+      },
+      "COUNTRY_NAME": "UY",
+      "NUMBERS": 0
+    },
+    "UZ": {
+      "CENTER": {
+        "x": 1120,
+        "y": 275
+      },
+      "COUNTRY_NAME": "UZ",
+      "NUMBERS": 0
+    },
+    "VA": {
+      "COUNTRY_NAME": "VA",
+      "NUMBERS": 0
+    },
+    "ER": {
+      "COUNTRY_NAME": "ER",
+      "NUMBERS": 0
+    },
+    "VC": {
+      "COUNTRY_NAME": "VC",
+      "NUMBERS": 0
+    },
+    "ES": {
+      "CENTER": {
+        "x": 760,
+        "y": 287
+      },
+      "COUNTRY_NAME": "ES",
+      "NUMBERS": 0
+    },
+    "ET": {
+      "CENTER": {
+        "x": 1014,
+        "y": 526
+      },
+      "COUNTRY_NAME": "ET",
+      "NUMBERS": 0
+    },
+    "VE": {
+      "CENTER": {
+        "x": 392,
+        "y": 530
+      },
+      "COUNTRY_NAME": "VE",
+      "NUMBERS": 0
+    },
+    "VG": {
+      "COUNTRY_NAME": "VG",
+      "NUMBERS": 0
+    },
+    "VI": {
+      "COUNTRY_NAME": "VI",
+      "NUMBERS": 0
+    },
+    "VN": {
+      "CENTER": {
+        "x": 1421,
+        "y": 489
+      },
+      "COUNTRY_NAME": "VN",
+      "NUMBERS": 0
+    },
+    "VU": {
+      "COUNTRY_NAME": "VU",
+      "NUMBERS": 0
+    },
+    "FI": {
+      "CENTER": {
+        "x": 917,
+        "y": 114
+      },
+      "COUNTRY_NAME": "FI",
+      "NUMBERS": 0
+    },
+    "FJ": {
+      "COUNTRY_NAME": "FJ",
+      "NUMBERS": 0
+    },
+    "FK": {
+      "COUNTRY_NAME": "FK",
+      "NUMBERS": 0
+    },
+    "FM": {
+      "COUNTRY_NAME": "FM",
+      "NUMBERS": 0
+    },
+    "FO": {
+      "COUNTRY_NAME": "FO",
+      "NUMBERS": 0
+    },
+    "FR": {
+      "CENTER": {
+        "x": 796,
+        "y": 245
+      },
+      "COUNTRY_NAME": "FR",
+      "NUMBERS": 0
+    },
+    "WF": {
+      "COUNTRY_NAME": "WF",
+      "NUMBERS": 0
+    },
+    "GA": {
+      "COUNTRY_NAME": "GA",
+      "NUMBERS": 0
+    },
+    "GB": {
+      "CENTER": {
+        "x": 777,
+        "y": 183
+      },
+      "COUNTRY_NAME": "GB",
+      "NUMBERS": 0
+    },
+    "WS": {
+      "COUNTRY_NAME": "WS",
+      "NUMBERS": 0
+    },
+    "GD": {
+      "COUNTRY_NAME": "GD",
+      "NUMBERS": 0
+    },
+    "GE": {
+      "COUNTRY_NAME": "GE",
+      "NUMBERS": 0
+    },
+    "GF": {
+      "CENTER": {
+        "x": 462,
+        "y": 554
+      },
+      "COUNTRY_NAME": "GF",
+      "NUMBERS": 0
+    },
+    "GG": {
+      "COUNTRY_NAME": "GG",
+      "NUMBERS": 0
+    },
+    "GH": {
+      "COUNTRY_NAME": "GH",
+      "NUMBERS": 0
+    },
+    "GI": {
+      "COUNTRY_NAME": "GI",
+      "NUMBERS": 0
+    },
+    "GL": {
+      "CENTER": {
+        "x": 644,
+        "y": 62
+      },
+      "COUNTRY_NAME": "GL",
+      "NUMBERS": 0
+    },
+    "GM": {
+      "COUNTRY_NAME": "GM",
+      "NUMBERS": 0
+    },
+    "GN": {
+      "COUNTRY_NAME": "GN",
+      "NUMBERS": 0
+    },
+    "GP": {
+      "COUNTRY_NAME": "GP",
+      "NUMBERS": 0
+    },
+    "GQ": {
+      "COUNTRY_NAME": "GQ",
+      "NUMBERS": 0
+    },
+    "GR": {
+      "COUNTRY_NAME": "GR",
+      "NUMBERS": 0
+    },
+    "GS": {
+      "COUNTRY_NAME": "GS",
+      "NUMBERS": 0
+    },
+    "GT": {
+      "COUNTRY_NAME": "GT",
+      "NUMBERS": 0
+    },
+    "GU": {
+      "COUNTRY_NAME": "GU",
+      "NUMBERS": 0
+    },
+    "GW": {
+      "COUNTRY_NAME": "GW",
+      "NUMBERS": 0
+    },
+    "GY": {
+      "CENTER": {
+        "x": 426,
+        "y": 540
+      },
+      "COUNTRY_NAME": "GY",
+      "NUMBERS": 0
+    },
+    "HK": {
+      "COUNTRY_NAME": "HK",
+      "NUMBERS": 0
+    },
+    "HM": {
+      "COUNTRY_NAME": "HM",
+      "NUMBERS": 0
+    },
+    "HN": {
+      "COUNTRY_NAME": "HN",
+      "NUMBERS": 0
+    },
+    "HR": {
+      "COUNTRY_NAME": "HR",
+      "NUMBERS": 0
+    },
+    "HT": {
+      "COUNTRY_NAME": "HT",
+      "NUMBERS": 0
+    },
+    "YE": {
+      "CENTER": {
+        "x": 1055,
+        "y": 468
+      },
+      "COUNTRY_NAME": "YE",
+      "NUMBERS": 0
+    },
+    "HU": {
+      "COUNTRY_NAME": "HU",
+      "NUMBERS": 0
+    },
+    "ID": {
+      "CENTER": {
+        "x": 1454,
+        "y": 595
+      },
+      "COUNTRY_NAME": "ID",
+      "NUMBERS": 0
+    },
+    "YT": {
+      "COUNTRY_NAME": "YT",
+      "NUMBERS": 0
+    },
+    "IE": {
+      "CENTER": {
+        "x": 745,
+        "y": 194
+      },
+      "COUNTRY_NAME": "IE",
+      "NUMBERS": 0
+    },
+    "IL": {
+      "COUNTRY_NAME": "IL",
+      "NUMBERS": 0
+    },
+    "IM": {
+      "COUNTRY_NAME": "IM",
+      "NUMBERS": 0
+    },
+    "IN": {
+      "CENTER": {
+        "x": 1229,
+        "y": 414
+      },
+      "COUNTRY_NAME": "IN",
+      "NUMBERS": 0
+    },
+    "IO": {
+      "COUNTRY_NAME": "IO",
+      "NUMBERS": 0
+    },
+    "ZA": {
+      "CENTER": {
+        "x": 910,
+        "y": 803
+      },
+      "COUNTRY_NAME": "ZA",
+      "NUMBERS": 0
+    },
+    "IQ": {
+      "CENTER": {
+        "x": 1021,
+        "y": 340
+      },
+      "COUNTRY_NAME": "IQ",
+      "NUMBERS": 0
+    },
+    "IR": {
+      "CENTER": {
+        "x": 1082,
+        "y": 347
+      },
+      "COUNTRY_NAME": "IR",
+      "NUMBERS": 0
+    },
+    "IS": {
+      "CENTER": {
+        "x": 709,
+        "y": 114
+      },
+      "COUNTRY_NAME": "IS",
+      "NUMBERS": 0
+    },
+    "IT": {
+      "COUNTRY_NAME": "IT",
+      "NUMBERS": 0
+    },
+    "ZM": {
+      "CENTER": {
+        "x": 927,
+        "y": 692
+      },
+      "COUNTRY_NAME": "ZM",
+      "NUMBERS": 0
+    },
+    "JE": {
+      "COUNTRY_NAME": "JE",
+      "NUMBERS": 0
+    },
+    "ZW": {
+      "CENTER": {
+        "x": 951,
+        "y": 727
+      },
+      "COUNTRY_NAME": "ZW",
+      "NUMBERS": 0
+    },
+    "JM": {
+      "COUNTRY_NAME": "JM",
+      "NUMBERS": 0
+    },
+    "JO": {
+      "CENTER": {
+        "x": 983,
+        "y": 357
+      },
+      "COUNTRY_NAME": "JO",
+      "NUMBERS": 0
+    },
+    "JP": {
+      "CENTER": {
+        "x": 1561,
+        "y": 315
+      },
+      "COUNTRY_NAME": "JP",
+      "NUMBERS": 0
+    },
+    "KE": {
+      "CENTER": {
+        "x": 1002,
+        "y": 583
+      },
+      "COUNTRY_NAME": "KE",
+      "NUMBERS": 0
+    },
+    "KG": {
+      "CENTER": {
+        "x": 1186,
+        "y": 278
+      },
+      "COUNTRY_NAME": "KG",
+      "NUMBERS": 0
+    },
+    "KH": {
+      "CENTER": {
+        "x": 1399,
+        "y": 496
+      },
+      "COUNTRY_NAME": "KH",
+      "NUMBERS": 0
+    },
+    "KI": {
+      "COUNTRY_NAME": "KI",
+      "NUMBERS": 0
+    },
+    "KM": {
+      "COUNTRY_NAME": "KM",
+      "NUMBERS": 0
+    },
+    "KN": {
+      "COUNTRY_NAME": "KN",
+      "NUMBERS": 0
+    },
+    "KP": {
+      "CENTER": {
+        "x": 1471,
+        "y": 289
+      },
+      "COUNTRY_NAME": "KP",
+      "NUMBERS": 0
+    },
+    "KR": {
+      "CENTER": {
+        "x": 1491,
+        "y": 313
+      },
+      "COUNTRY_NAME": "KR",
+      "NUMBERS": 0
+    },
+    "KW": {
+      "COUNTRY_NAME": "KW",
+      "NUMBERS": 0
+    },
+    "KY": {
+      "COUNTRY_NAME": "KY",
+      "NUMBERS": 0
+    },
+    "KZ": {
+      "CENTER": {
+        "x": 1147,
+        "y": 224
+      },
+      "COUNTRY_NAME": "KZ",
+      "NUMBERS": 0
+    },
+    "LA": {
+      "CENTER": {
+        "x": 1399,
+        "y": 429
+      },
+      "COUNTRY_NAME": "LA",
+      "NUMBERS": 0
+    },
+    "LB": {
+      "COUNTRY_NAME": "LB",
+      "NUMBERS": 0
+    },
+    "LC": {
+      "COUNTRY_NAME": "LC",
+      "NUMBERS": 0
+    },
+    "LI": {
+      "COUNTRY_NAME": "LI",
+      "NUMBERS": 0
+    },
+    "LK": {
+      "CENTER": {
+        "x": 1254,
+        "y": 532
+      },
+      "COUNTRY_NAME": "LK",
+      "NUMBERS": 0
+    },
+    "LR": {
+      "COUNTRY_NAME": "LR",
+      "NUMBERS": 0
+    },
+    "LS": {
+      "COUNTRY_NAME": "LS",
+      "NUMBERS": 0
+    },
+    "LT": {
+      "COUNTRY_NAME": "LT",
+      "NUMBERS": 0
+    },
+    "LU": {
+      "COUNTRY_NAME": "LU",
+      "NUMBERS": 0
+    },
+    "LV": {
+      "COUNTRY_NAME": "LV",
+      "NUMBERS": 0
+    },
+    "LY": {
+      "CENTER": {
+        "x": 883,
+        "y": 391
+      },
+      "COUNTRY_NAME": "LY",
+      "NUMBERS": 0
+    },
+    "MA": {
+      "CENTER": {
+        "x": 743,
+        "y": 348
+      },
+      "COUNTRY_NAME": "MA",
+      "NUMBERS": 0
+    },
+    "MC": {
+      "COUNTRY_NAME": "MC",
+      "NUMBERS": 0
+    },
+    "MD": {
+      "COUNTRY_NAME": "MD",
+      "NUMBERS": 0
+    },
+    "ME": {
+      "COUNTRY_NAME": "ME",
+      "NUMBERS": 0
+    },
+    "MF": {
+      "COUNTRY_NAME": "MF",
+      "NUMBERS": 0
+    },
+    "MG": {
+      "CENTER": {
+        "x": 1048,
+        "y": 725
+      },
+      "COUNTRY_NAME": "MG",
+      "NUMBERS": 0
+    },
+    "MH": {
+      "COUNTRY_NAME": "MH",
+      "NUMBERS": 0
+    },
+    "MK": {
+      "COUNTRY_NAME": "MK",
+      "NUMBERS": 0
+    },
+    "ML": {
+      "CENTER": {
+        "x": 765,
+        "y": 449
+      },
+      "COUNTRY_NAME": "ML",
+      "NUMBERS": 0
+    },
+    "MM": {
+      "CENTER": {
+        "x": 1338,
+        "y": 433
+      },
+      "COUNTRY_NAME": "MM",
+      "NUMBERS": 0
+    },
+    "MN": {
+      "CENTER": {
+        "x": 1304,
+        "y": 238
+      },
+      "COUNTRY_NAME": "MN",
+      "NUMBERS": 0
+    },
+    "MO": {
+      "COUNTRY_NAME": "MO",
+      "NUMBERS": 0
+    },
+    "MP": {
+      "COUNTRY_NAME": "MP",
+      "NUMBERS": 0
+    },
+    "MQ": {
+      "COUNTRY_NAME": "MQ",
+      "NUMBERS": 0
+    },
+    "MR": {
+      "CENTER": {
+        "x": 716,
+        "y": 442
+      },
+      "COUNTRY_NAME": "MR",
+      "NUMBERS": 0
+    },
+    "MS": {
+      "COUNTRY_NAME": "MS",
+      "NUMBERS": 0
+    },
+    "MT": {
+      "COUNTRY_NAME": "MT",
+      "NUMBERS": 0
+    },
+    "MU": {
+      "COUNTRY_NAME": "MU",
+      "NUMBERS": 0
+    },
+    "MV": {
+      "COUNTRY_NAME": "MV",
+      "NUMBERS": 0
+    },
+    "MW": {
+      "CENTER": {
+        "x": 975,
+        "y": 681
+      },
+      "COUNTRY_NAME": "MW",
+      "NUMBERS": 0
+    },
+    "MX": {
+      "CENTER": {
+        "x": 198,
+        "y": 428
+      },
+      "COUNTRY_NAME": "MX",
+      "NUMBERS": 0
+    },
+    "MY": {
+      "CENTER": {
+        "x": 1387,
+        "y": 556
+      },
+      "COUNTRY_NAME": "MY",
+      "NUMBERS": 0
+    },
+    "MZ": {
+      "CENTER": {
+        "x": 1002,
+        "y": 685
+      },
+      "COUNTRY_NAME": "MZ",
+      "NUMBERS": 0
+    },
+    "NA": {
+      "CENTER": {
+        "x": 876,
+        "y": 736
+      },
+      "COUNTRY_NAME": "NA",
+      "NUMBERS": 0
+    },
+    "NC": {
+      "COUNTRY_NAME": "NC",
+      "NUMBERS": 0
+    },
+    "NE": {
+      "CENTER": {
+        "x": 835,
+        "y": 456
+      },
+      "COUNTRY_NAME": "NE",
+      "NUMBERS": 0
+    },
+    "NF": {
+      "COUNTRY_NAME": "NF",
+      "NUMBERS": 0
+    },
+    "NG": {
+      "CENTER": {
+        "x": 823,
+        "y": 514
+      },
+      "COUNTRY_NAME": "NG",
+      "NUMBERS": 0
+    },
+    "NI": {
+      "COUNTRY_NAME": "NI",
+      "NUMBERS": 0
+    },
+    "NL": {
+      "COUNTRY_NAME": "NL",
+      "NUMBERS": 0
+    },
+    "NO": {
+      "CENTER": {
+        "x": 830,
+        "y": 144
+      },
+      "COUNTRY_NAME": "NO",
+      "NUMBERS": 0
+    },
+    "NP": {
+      "CENTER": {
+        "x": 1268,
+        "y": 384
+      },
+      "COUNTRY_NAME": "NP",
+      "NUMBERS": 0
+    },
+    "NR": {
+      "COUNTRY_NAME": "NR",
+      "NUMBERS": 0
+    },
+    "NU": {
+      "COUNTRY_NAME": "NU",
+      "NUMBERS": 0
+    },
+    "NZ": {
+      "CENTER": {
+        "x": 1709,
+        "y": 896
+      },
+      "COUNTRY_NAME": "NZ",
+      "NUMBERS": 0
+    },
+    "OM": {
+      "CENTER": {
+        "x": 1106,
+        "y": 426
+      },
+      "COUNTRY_NAME": "OM",
+      "NUMBERS": 0
+    },
+    "PA": {
+      "COUNTRY_NAME": "PA",
+      "NUMBERS": 0
+    },
+    "PE": {
+      "CENTER": {
+        "x": 339,
+        "y": 656
+      },
+      "COUNTRY_NAME": "PE",
+      "NUMBERS": 0
+    },
+    "PF": {
+      "COUNTRY_NAME": "PF",
+      "NUMBERS": 0
+    },
+    "PG": {
+      "CENTER": {
+        "x": 1624,
+        "y": 625
+      },
+      "COUNTRY_NAME": "PG",
+      "NUMBERS": 0
+    },
+    "PH": {
+      "CENTER": {
+        "x": 1483,
+        "y": 466
+      },
+      "COUNTRY_NAME": "PH",
+      "NUMBERS": 0
+    },
+    "PK": {
+      "CENTER": {
+        "x": 1188,
+        "y": 366
+      },
+      "COUNTRY_NAME": "PK",
+      "NUMBERS": 0
+    },
+    "PL": {
+      "CENTER": {
+        "x": 886,
+        "y": 202
+      },
+      "COUNTRY_NAME": "PL",
+      "NUMBERS": 0
+    },
+    "PM": {
+      "COUNTRY_NAME": "PM",
+      "NUMBERS": 0
+    },
+    "PN": {
+      "COUNTRY_NAME": "PN",
+      "NUMBERS": 0
+    }
+  },
+  "configDimension": {
+    "width": 1936,
+    "height": 1056
+  }
+}
