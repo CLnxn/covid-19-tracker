@@ -3,7 +3,9 @@ package me.lnzt.covtracker.ui.listeners;
 import me.lnzt.covtracker.storables.GlobalData;
 import me.lnzt.covtracker.ui.ButtonHandler;
 import me.lnzt.covtracker.ui.ConfigDialog;
+import me.lnzt.covtracker.ui.ControlPanel;
 import me.lnzt.covtracker.ui.wrappers.JButtonW;
+import me.lnzt.covtracker.ui.wrappers.JCustomPane;
 
 import javax.swing.*;
 import javax.swing.border.Border;
@@ -49,12 +51,6 @@ public class ButtonListener implements MouseListener, KeyListener {
 
                 switch (button.getIdentifier()){
                     case "Config":
-                        if(!inConfigMode){
-                            inConfigMode = true;
-                            System.out.println("in config mode");
-                        }
-
-
                         break;
                     case "sh":
                         if(!inConfigMode){
@@ -69,36 +65,29 @@ public class ButtonListener implements MouseListener, KeyListener {
                             }
                         }
                         break;
-                    case "submit":
-                        JDialog parent = (JDialog) button.getHandler().getParent(ButtonHandler.PARENT_TYPE.JDialog);
-                        if(parent instanceof ConfigDialog){
-                            ConfigDialog proper = (ConfigDialog) parent;
-                            String inputCCODE = proper.getTextInput();
-                            Point loc = proper.getLocation();
-                            System.out.println("input country code: "+ inputCCODE + "\n"+"location: "+ loc);
-                            parent.dispose();
-
-                            GlobalData ctys = proper.getOwner().mainData;
-
-
-                                try {
-
-                                        ctys.updateCountry(inputCCODE, loc);
-                                } catch (Exception ex) {
-                                    ex.printStackTrace();
-                                    // if wrong, no updates will be done to any country
-                                }
+                    case "deselect":
+                       JPanel jPane = (JPanel) button.getHandler().getParent(ButtonHandler.PARENT_TYPE.JPanel);
+                       if(jPane instanceof ControlPanel){
+                           ControlPanel controlPanel = (ControlPanel) jPane;
+                           for(Component jComponent : controlPanel.getParentPane().getComponents()){
+                               if(jComponent instanceof JCustomPane){
+                                   JCustomPane jcp = (JCustomPane) jComponent;
+                                   if(jcp.getIsHighlighted()){
+                                      jcp.highlight(false);
+                                   }
+                               }
+                           }
+                       }
 
                         }
-                   default:
-                        break;
+
                 }
 
 
             }
 
 
-    }
+
 
     @Override
     public void mousePressed(MouseEvent e) {

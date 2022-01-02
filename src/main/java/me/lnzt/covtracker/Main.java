@@ -4,11 +4,10 @@ public class Main {
 
 
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args){
 
         System.out.println("running");
-
-            CovTracker App = new CovTracker(800,600);
+        new CovTracker(1280, 720);
 
 
 

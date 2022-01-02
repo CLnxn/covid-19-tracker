@@ -1,6 +1,7 @@
 package me.lnzt.covtracker;
 
 
+import me.lnzt.covtracker.async.BackgroundWorker;
 import me.lnzt.covtracker.storables.GlobalData;
 import me.lnzt.covtracker.ui.ContentPanel;
 import me.lnzt.covtracker.ui.listeners.FrameListener;
@@ -10,12 +11,12 @@ import javax.swing.*;
 
 public class CovTracker extends JFrame {
 
-    private int width, height;
+    public int width, height;
     public ContentPanel bgPanel;
     public FrameListener f_Handler;
     public GlobalData mainData;
     public static boolean inConfigMode;
-    public boolean maximised= false;
+
 
 
     public CovTracker(int width, int height){
@@ -23,13 +24,14 @@ public class CovTracker extends JFrame {
 
 
                 //this.setLayout(null);
+                this.width = width;
+                this.height = height;
                 this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                // this.setResizable(false);
                 this.mainData = new GlobalData(this);
-                mainData.initCountries();
+                mainData.initCountries("src/main/resources/countries.json");
 
-                this.width = width;
-                this.height = height;
+
                 this.setTitle("Covid-19 Tracker");
                 this.setSize(width, height);
                 try {
@@ -51,6 +53,8 @@ public class CovTracker extends JFrame {
                 addWindowStateListener(f_Handler);
                 addWindowFocusListener(f_Handler);
                 addMouseListener(f_Handler);
+        BackgroundWorker bw = new BackgroundWorker(this);
+        bw.run();
 
 
             }

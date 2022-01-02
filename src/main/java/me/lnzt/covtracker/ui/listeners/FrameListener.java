@@ -2,12 +2,10 @@ package me.lnzt.covtracker.ui.listeners;
 
 import me.lnzt.covtracker.CovTracker;
 import me.lnzt.covtracker.fileio.FileIO;
-import me.lnzt.covtracker.storables.ConfigPayload;
-import me.lnzt.covtracker.storables.CountryNode;
 
 import java.awt.*;
 import java.awt.event.*;
-import java.util.HashMap;
+import java.io.IOException;
 
 public class FrameListener implements WindowListener, WindowFocusListener, WindowStateListener, MouseListener {
 
@@ -20,39 +18,31 @@ public class FrameListener implements WindowListener, WindowFocusListener, Windo
 
     @Override
     public void windowOpened(WindowEvent e) {
-
-            double xScale = (double)e.getWindow().getWidth()/(double)parentFrame.mainData.configDimension.width;
-            double yScale = (double)e.getWindow().getHeight()/(double)parentFrame.mainData.configDimension.height;
-
-
-            parentFrame.bgPanel.LPHandler.scaleComponents(xScale,yScale);
-System.out.println("opened window");
+    /*
+                double xScale = (double)e.getWindow().getWidth()/(double)parentFrame.mainData.configDimension.width;
+                double yScale = (double)e.getWindow().getHeight()/(double)parentFrame.mainData.configDimension.height;
 
 
+                parentFrame.bgPanel.LPHandler.scaleComponents(xScale,yScale);
 
+
+
+     */
+
+        System.out.println("opened window");
 
     }
 
     @Override
     public void windowClosing(WindowEvent e) {
-        System.out.println("closingw");
 
-        FileIO output = new FileIO();
+        FileIO fio = new FileIO();
         try {
-            HashMap<String, CountryNode> ctys = parentFrame.mainData.COUNTRIES;
-            Dimension configD = e.getWindow().getSize();
-            ConfigPayload cp = new ConfigPayload(ctys,configD);
-            if(ctys != null) {
-               output.writeToFile(cp);
-            } else{
-                System.out.println("ctys is null");
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
+            fio.writeToFile(parentFrame.mainData.Countries);
+            System.out.println("written.");
+        } catch (IOException ioException) {
+            ioException.printStackTrace();
         }
-
-        //write file io
-
     }
 
     @Override
@@ -96,14 +86,9 @@ System.out.println("opened window");
 
         if(e.getNewState() == 0 || e.getNewState() == 6) {
             System.out.println("scaling");
-            parentFrame.maximised = !parentFrame.maximised;
 
 
-            double xScale = (double)e.getWindow().getWidth()/(double)parentFrame.bgPanel.getCurrentWidth();
-            double yScale = (double)e.getWindow().getHeight()/(double)parentFrame.bgPanel.getCurrentHeight();
-
-
-            parentFrame.bgPanel.LPHandler.scaleComponents(xScale,yScale);
+            parentFrame.bgPanel.LPHandler.scaleComponents(new Dimension(e.getWindow().getWidth(),e.getWindow().getHeight()));
 
 
             parentFrame.bgPanel.setHeight(e.getWindow().getHeight());
@@ -117,23 +102,7 @@ System.out.println("opened window");
     @Deprecated
     @Override
     public void mouseClicked(MouseEvent e) {
-        /*
-        System.out.println("clicked frame");
-        if(e.getSource() instanceof CovidWatch && CovidWatch.inConfigMode) {
-            CovidWatch frame = (CovidWatch) e.getSource();
 
-
-
-            JLabel label = new JLabel();
-            label.setText("a label");
-
-           label.setPreferredSize(new Dimension(200,200));
-            frame.add(label, "x "+e.getX()+", y "+e.getY());
-                frame.setVisible(true);
-            System.out.println(e.getPoint());
-        }
-
-         */
 
     }
 

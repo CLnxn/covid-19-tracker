@@ -1,7 +1,6 @@
 package me.lnzt.covtracker.ui;
 
 import me.lnzt.covtracker.CovTracker;
-import me.lnzt.covtracker.pixelprocess.OutlineProcessing;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
@@ -12,7 +11,7 @@ import java.io.IOException;
 
 public class ContentPanel extends JPanel {
 
-    private final String IMAGE_PATH = "src/main/resources/covbg.jpg";
+    private final String IMAGE_PATH = "src/main/resources/mercator.jpg";
 
     public BufferedImage backgroundImage;
     public LayeredPanel LPHandler;
@@ -28,6 +27,7 @@ public class ContentPanel extends JPanel {
 
 
     public ContentPanel(int width, int height, CovTracker ParentJframe) throws IOException {
+        try {
             this.setLayout(new BorderLayout());
             this.width = width;
             this.height = height;
@@ -35,14 +35,16 @@ public class ContentPanel extends JPanel {
 
             //BHandler = new ButtonHandler(new Dimension(100,25));
             //List<Component> buttons = BHandler.getButtons();
-            LPHandler = new LayeredPanel(width,height,null, ParentJframe);
+            LPHandler = new LayeredPanel(width, height, null, ParentJframe);
             JLayeredPane layeredPane = LPHandler.getLayeredPane();
-
 
 
             backgroundImage = ImageIO.read(new File(IMAGE_PATH));
 
-            this.add(layeredPane,BorderLayout.CENTER);
+            this.add(layeredPane, BorderLayout.CENTER);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
 
     }
 
@@ -62,18 +64,8 @@ public class ContentPanel extends JPanel {
 
     }
 
-    public void processComponent(){
-        OutlineProcessing OP = new OutlineProcessing(backgroundImage);
 
 
-    }
-    public void updateComponent(){
-            ParentJframe.remove(ParentJframe.bgPanel);
-            ParentJframe.add(this);
-            ParentJframe.bgPanel = this;
-
-
-    }
 
     public void setWidth(int width) {
         this.width = width;

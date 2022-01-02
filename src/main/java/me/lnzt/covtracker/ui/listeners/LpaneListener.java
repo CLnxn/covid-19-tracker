@@ -2,17 +2,29 @@ package me.lnzt.covtracker.ui.listeners;
 
 import me.lnzt.covtracker.CovTracker;
 import me.lnzt.covtracker.ui.ConfigDialog;
+import me.lnzt.covtracker.ui.wrappers.JCustomPane;
 import me.lnzt.covtracker.ui.wrappers.LayeredPaneW;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
-public class LpaneListener implements MouseListener {
+public class LpaneListener implements MouseListener{
+
+    JComponent parent;
+    public LpaneListener(JComponent parent){
+        this.parent = parent;
+    }
     @Override
     public void mouseClicked(MouseEvent e) {
         System.out.println("clicked pane");
+        if(parent != null){
+            parent.grabFocus();
+        }
+
         if(e.getSource() instanceof LayeredPaneW && CovTracker.inConfigMode && !ConfigDialog.isOpen) {
             ConfigDialog.isOpen = true;
             LayeredPaneW jLayeredPane = (LayeredPaneW) e.getSource();
@@ -51,4 +63,5 @@ public class LpaneListener implements MouseListener {
     public void mouseExited(MouseEvent e) {
 
     }
+
 }

@@ -65,11 +65,11 @@ public class ButtonHandler {
 
 
 
-
+    //TODO: zoom in/zoom out of region buttons
     private void initButtons(){
         initShowHideButton();
         initConfigButton();
-        initComboButton();
+        initdeselectButton();
 
 
     }
@@ -96,15 +96,12 @@ public class ButtonHandler {
         return configButton;
     }
 
-    private void initComboButton(){
-        //TODO: zoom in/zoom out of region buttons
-       JButton test1 = initDefButton("test1");
-        JButton test2 = initDefButton("test2");
-        JButton test3 = initDefButton("test3");
+    private void initdeselectButton(){
 
-        buttons.add(test1);
-        buttons.add(test2);
-        buttons.add(test3);
+       JButton deselect = initDefButton("deselect");
+        buttons.add(deselect);
+
+
     }
 
     public JButtonW initDefButton(String text, ImageIcon ic){

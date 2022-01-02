@@ -11,7 +11,7 @@ public class JButtonW extends JButton {
      * identifiers are loose terms for users to separate out their own buttons. Defaults to text.
      */
     private String identifier;
-    private JDialog parent;
+    private JComponent parent;
 
 
 
@@ -33,7 +33,7 @@ public class JButtonW extends JButton {
             this.handler = handler;
 
         }
-        public JButtonW(JDialog parent){
+        public JButtonW(JComponent parent){
             super();
             this.parent = parent;
         }
