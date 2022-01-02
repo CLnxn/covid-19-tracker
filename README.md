@@ -1,2 +1,2 @@
-#CovidWatch
-I forgot to remove my debug logs.
+# MyFirstCovidTracker
+### I forgot to remove debug logs
