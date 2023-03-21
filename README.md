@@ -1,2 +1,2 @@
 # MyFirstCovidTracker
-### I forgot to remove debug logs
+Track global case count (may be outdated as of 2023)
